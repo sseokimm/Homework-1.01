@@ -1,6 +1,6 @@
 /* General Body Styles */
 body {
-    background-color: #E5D0E3;
+    background-color: #A99ABD;
     color: #E5D0E3;
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -18,7 +18,7 @@ body {
 
 .section {
     background-color: #E0E3F4; 
-    color: #E0E3F4;
+    color: #E5D0E3;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #A99ABD;
     padding: 20px;
@@ -30,9 +30,9 @@ body {
 .section img {
     width: 500px; 
     height: auto; 
-    border: 4px solid #C0D8C0;
-    border-radius: 0%; 
-    margin: 30px 0; 
+    border: 10px solid #C0D8C0;
+    border-radius: 10%; 
+    margin: 40px 0; 
 }
 
 .button {
@@ -57,23 +57,24 @@ body {
 
 ul, ol {
     text-align: left;
+    color: #A99ABD;
     width: auto;
     margin: 0;
     padding: 0;
 }
 
 ul li, ol li {
-    font-size: 16px;
-    color: #6c567b;
+    font-size: 14px;
+    color: #A99ABD;
     line-height: 1.6;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     .centered-content {
         height: auto;
     }
 
     .section img {
-        width: 150px;
+        width: 300px;
     }
 }
