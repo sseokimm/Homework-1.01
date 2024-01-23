@@ -1,6 +1,6 @@
 /* General Body Styles */
 body {
-    background-color: #97A6B2;
+    background-color: #155589;
     color: #155589;
     font-family: 'Arial', sans-serif;
     text-align: center;
@@ -17,7 +17,7 @@ body {
 }
 
 .section {
-    background-color: #f2f0f7; 
+    background-color: #DFEBEB; 
     color: #333;
     padding: 20px;
     border-radius: 8px;
@@ -28,14 +28,14 @@ body {
 .section img {
     width: 500px; 
     height: auto; 
-    border: 4px solid #9a7da0; /* Light purple colored border */
+    border: 4px solid #A8D1D1; /* Light purple colored border */
     border-radius: 50%; 
     margin: 30px 0; 
 }
 
 .button {
-    background-color: #6c567b; /* Darker lilac for the button */
-    color: #ffffff; /* White text for contrast */
+    background-color: #6c567b;
+    color: #ffffff;
     padding: 10px 20px;
     border-radius: 50%; /* Makes the button round */
     border: 2px solid #5a4560; /* Dark purple border */
@@ -48,16 +48,15 @@ body {
 .button-cat-paw::after {
     content: "";
     position: absolute;
-    top: -10px; /* Position above the button */
+    top: -10px;
     left: 50%;
     transform: translateX(-50%);
     width: 15px;
     height: 15px;
     background-color: #6c567b;
-    border-radius: 50%; /* Makes the element round */
+    border-radius: 50%;
 }
 
-/* List Styling */
 ul, ol {
     text-align: left;
     width: auto; /* Allows the list to be the width of its content */
@@ -71,13 +70,12 @@ ul li, ol li {
     line-height: 1.6;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
     .centered-content {
         height: auto;
     }
 
     .section img {
-        width: 150px; /* Smaller image size for mobile */
+        width: 150px;
     }
 }
