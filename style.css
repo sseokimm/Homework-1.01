@@ -1,11 +1,11 @@
 /* General Body Styles */
 body {
-    background-color: #A99ABD;
+    background-color: #E1EFCA;
     color: #E5D0E3;
     font-family: 'Arial', sans-serif;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 5px;
 }
 
 .centered-content {
